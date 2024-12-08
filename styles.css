@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, rgba(0, 42, 82, 0.8), rgba(255, 255, 255, 0.3));
+    color: #fff;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    font-size: 36px;
+    color: #fff;
+}
+
+header p {
+    font-size: 18px;
+    color: #ccc;
+}
+
+button, select {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+}
+
+button:hover, select:hover {
+    background-color: #004088;
+}
+
+.verse-of-the-day, .topic-selector, .quiz-section, .song-section {
+    background: rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+.verse-of-the-day h2, .topic-selector h2, .quiz-section h2, .song-section h2 {
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+}
+
+.verse-display {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #ddd;
+    font-weight: bold;
+}
+
+.quiz-section {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.quiz-answer {
+    margin: 5px 0;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.quiz-answer:hover {
+    background-color: #0056b3;
+}
+
+.song-list {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.song-list li {
+    margin: 10px 0;
+}
+
+.song-list a {
+    color: #ffd700;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #ccc;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+        max-width: 100%;
+    }
+
+    header h1 {
+        font-size: 28px;
+    }
+
+    .verse-of-the-day h2, .topic-selector h2, .quiz-section h2, .song-section h2 {
+        font-size: 20px;
+    }
+
+    .quiz-answer {
+        font-size: 16px;
+    }
+
+    .song-list a {
+        font-size: 16px;
+    }
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+h1, h2, h3 {
+    color: #0044cc;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header img {
+    width: 50px;
+}
+
+.playlist-section {
+    margin-top: 40px;
+}
+
+.playlist-category {
+    margin-bottom: 30px;
+}
+
+.playlist-category ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.playlist-category ul li {
+    margin: 5px 0;
+}
+
+.playlist-category ul li a {
+    text-decoration: none;
+    color: #0056b3;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.playlist-category ul li a:hover {
+    color: #ff5722;
+}
